@@ -1,0 +1,49 @@
+name: Mise à jour du site depuis Google Drive
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_id:
+        description: "ID du fichier ZIP du site sur Google Drive (partagé par lien)"
+        required: true
+        default: "1nnZFKAwbwy8TKx5CokQMFJ__R1BKxUUZ"
+
+permissions:
+  contents: write
+
+jobs:
+  importer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Télécharger le ZIP depuis Google Drive
+        env:
+          FILE_ID: ${{ inputs.file_id }}
+        run: |
+          pip install --quiet gdown
+          gdown "$FILE_ID" -O /tmp/site.zip
+          ls -lh /tmp/site.zip
+
+      - name: Extraire le site dans le dépôt
+        run: |
+          mkdir -p /tmp/site
+          unzip -q /tmp/site.zip -d /tmp/site
+          # Trouve le index.html le plus haut placé (le zip peut contenir un dossier parent)
+          INDEX=$(find /tmp/site -name index.html -not -path '*/__MACOSX/*' | awk '{ print length, $0 }' | sort -n | head -1 | cut -d' ' -f2-)
+          if [ -z "$INDEX" ]; then echo "Aucun index.html dans le ZIP"; exit 1; fi
+          SRC=$(dirname "$INDEX")
+          echo "Dossier du site : $SRC"
+          rsync -a --delete --exclude='.git' --exclude='.github' --exclude='README.md' "$SRC"/ ./
+          # GitHub refuse les fichiers de plus de 100 Mo
+          BIG=$(find . -path ./.git -prune -o -type f -size +95M -print)
+          if [ -n "$BIG" ]; then echo "Fichiers trop lourds pour GitHub :"; echo "$BIG"; exit 1; fi
+
+      - name: Enregistrer la mise à jour
+        run: |
+          git config user.name "LS DESIGN (mise à jour auto)"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "Mise à jour du site depuis Google Drive"
+          git push
