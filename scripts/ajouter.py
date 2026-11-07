@@ -86,6 +86,19 @@ def main():
         (DEPOT / pid).mkdir(exist_ok=True)
         (DEPOT / pid / ".gitkeep").touch()
 
+    # Images déposées directement dans ajouter/ : on devine le projet par le nom du fichier
+    non_classes = []
+    for f in sorted(f for f in DEPOT.iterdir() if f.is_file() and f.name != ".gitkeep"):
+        s = slug(f.stem)
+        candidats = [pid for pid in ids if s.startswith(pid)]
+        if not candidats:
+            candidats = [pid for pid in ids if pid.split("-")[0] == s.split("-")[0]]
+        if len(candidats) == 1:
+            f.rename(DEPOT / candidats[0] / f.name)
+            print(f"{f.name} -> rangé dans {candidats[0]}")
+        else:
+            non_classes.append(f.name)
+
     inconnus, ajoutes, ignores = [], 0, []
     for dossier in sorted(p for p in DEPOT.iterdir() if p.is_dir()):
         fichiers = sorted(f for f in dossier.rglob("*") if f.is_file() and f.name != ".gitkeep")
@@ -115,8 +128,12 @@ def main():
     print(f"\n{ajoutes} image(s) ajoutée(s) au portfolio.")
     if ignores:
         print("Fichiers ignorés (seules les images JPG, PNG, WEBP sont prises) :", *ignores, sep="\n  ")
+    if non_classes:
+        print("Images posées directement dans ajouter/ sans projet reconnu "
+              "(mettez-les dans le dossier du projet) :", *non_classes, sep="\n  ")
     if inconnus:
         print("Dossiers qui ne correspondent à aucun projet :", *inconnus, sep="\n  ")
+    if inconnus or non_classes:
         print("Projets existants :", ", ".join(ids))
         sys.exit(1)
 
