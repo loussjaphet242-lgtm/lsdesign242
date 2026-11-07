@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# À REMPLACER : mets l'adresse finale de ton site
+Sitemap: https://VOTRE-DOMAINE/sitemap.xml

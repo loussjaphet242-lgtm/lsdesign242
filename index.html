@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LS DESIGN · Dakar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<!-- SEO : modifie le titre ci-dessus et la description ci-dessous -->
+<meta name="description" content="LS DESIGN, designer graphique freelance à Dakar : affiches d'église, packaging, logos et chartes graphiques, affiches publicitaires et contenus pour les réseaux sociaux.">
+<meta name="theme-color" content="#060606">
+<!-- Partage sur les réseaux (Open Graph). À REMPLACER : adresse finale du site dans og:url et og:image -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="LS DESIGN · Nous donnons vie à vos idées">
+<meta property="og:description" content="Affiches, packaging, logos et identités visuelles, depuis Dakar.">
+<meta property="og:image" content="images/apercu-partage.jpg">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="lien-evitement" href="#contenu">Aller au contenu</a>
+
+<!-- Intro -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-c">
+    <img src="images/logo-symbole.png" alt="">
+    <span class="intro-nom">LS <b>DESIGN</b></span>
+    <span class="intro-barre"><i></i></span>
+  </div>
+</div>
+
+<div class="progression" aria-hidden="true"><i id="progression"></i></div>
+
+<header class="entete" id="entete">
+  <div class="conteneur">
+    <a class="logo-lien" href="#accueil" aria-label="LS DESIGN, retour à l'accueil">
+      <img src="images/logo-symbole.png" alt="" width="36" height="36">
+      <span>LS <b>DESIGN</b></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#univers">Univers</a>
+      <a href="#projets">Projets</a>
+      <a href="#services">Services</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+      <div class="nav-reseaux reseaux-js" data-taille="petit"></div>
+      <a class="btn btn-plein" href="#contact">Parlons de votre projet</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <!-- ============ 1. ACCUEIL ============ -->
+  <section class="accueil" id="accueil">
+    <div class="halo" aria-hidden="true"></div>
+    <div class="trame" aria-hidden="true"></div>
+    <div class="conteneur accueil-c">
+      <p class="surtitre entree">Studio créatif · Dakar, Sénégal</p>
+      <h1 class="titre-hero">
+        <span class="ligne entree"><span>Nous donnons</span></span>
+        <span class="ligne entree"><span><em class="ton">vie</em> à vos idées.</span></span>
+      </h1>
+      <p class="hero-rotatif entree" aria-live="polite">
+        <span>Affiches d'église</span><span>Packaging</span><span>Logos</span><span>Chartes graphiques</span><span>Affiches publicitaires</span><span>Réseaux sociaux</span>
+      </p>
+      <div class="actions entree">
+        <a class="btn btn-plein" href="#projets">Voir les réalisations
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-contour" href="#contact">Parlons de votre projet</a>
+      </div>
+      <div class="hero-reseaux entree">
+        <span>Suivez LS DESIGN</span>
+        <div class="reseaux-js" data-taille="moyen"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. BANDES DÉFILANTES : UNIVERS ============ -->
+  <section class="univers" id="univers" aria-labelledby="univers-titre">
+    <div class="conteneur univers-tete">
+      <p class="surtitre">Les univers du portfolio</p>
+      <h2 class="titre-section" id="univers-titre">Six univers, <span class="ton">une signature</span></h2>
+      <div class="compteurs" id="compteurs"></div>
+    </div>
+    <div class="bandes" id="bandes"></div>
+  </section>
+
+  <!-- ============ 3. VITRINE ÉPINGLÉE (défilement) ============ -->
+  <section class="vitrine" id="vitrine" aria-label="Vitrine des univers">
+    <div class="vitrine-scene">
+      <div class="vitrine-calques" id="vitrine-calques"></div>
+      <ol class="vitrine-rail" id="vitrine-rail" aria-hidden="true"></ol>
+    </div>
+  </section>
+
+  <!-- ============ 4. PORTFOLIO ============ -->
+  <section class="section portfolio" id="projets">
+    <div class="conteneur">
+      <div class="portfolio-tete" data-reveal>
+        <div>
+          <p class="surtitre">Portfolio</p>
+          <h2 class="titre-section">Toutes les <span class="ton">réalisations</span></h2>
+        </div>
+        <p>Classées par univers. Cliquez sur un projet pour voir toutes ses images, et utilisez les flèches du clavier pour passer au suivant.</p>
+      </div>
+    </div>
+    <div class="filtres-barre">
+      <div class="conteneur">
+        <div class="filtres" id="filtres" role="group" aria-label="Filtrer les projets par univers"></div>
+      </div>
+    </div>
+    <div class="conteneur">
+      <div class="grille-projets" id="grille" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ============ 5. MANIFESTE ============ -->
+  <section class="manifeste" id="manifeste">
+    <div class="manifeste-scene">
+      <p class="conteneur manifeste-texte" id="manifeste-texte">Chaque affiche raconte un moment. Chaque packaging défend un produit. Chaque logo porte une promesse. Chez LS DESIGN, nous transformons vos idées en visuels qui se remarquent, se comprennent et se retiennent.</p>
+    </div>
+  </section>
+
+  <!-- ============ 6. SERVICES ============ -->
+  <section class="section services" id="services">
+    <div class="conteneur">
+      <p class="surtitre" data-reveal>Services</p>
+      <h2 class="titre-section" data-reveal>Ce que nous <span class="ton">créons</span></h2>
+      <div class="services-grille">
+        <article class="service" data-reveal><span class="num">01</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l8.5 15h-17z"/><circle cx="12" cy="13" r="2.4"/></svg></div>
+          <h3>Logos & identités visuelles</h3><p>Logos distinctifs, chartes graphiques et systèmes visuels cohérents.</p></article>
+        <article class="service" data-reveal><span class="num">02</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8 7h8M8 11h5M8 17h8"/></svg></div>
+          <h3>Affiches & supports publicitaires</h3><p>Affiches d'événements, cultes, flyers, kakémonos et visuels promotionnels.</p></article>
+        <article class="service" data-reveal><span class="num">03</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v8"/></svg></div>
+          <h3>Packaging & étiquettes</h3><p>Sachets, boîtes, étiquettes de bouteilles et univers produit.</p></article>
+        <article class="service" data-reveal><span class="num">04</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor"/></svg></div>
+          <h3>Contenus pour les réseaux sociaux</h3><p>Publications, stories, citations et miniatures YouTube prêtes à publier.</p></article>
+        <article class="service" data-reveal><span class="num">05</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7.5 14h3M7.5 17h6"/></svg></div>
+          <h3>Gestion des réseaux sociaux</h3><p>Planification éditoriale, publication et cohérence de votre communication.</p></article>
+        <article class="service" data-reveal><span class="num">06</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="M16 10l5-3v10l-5-3z"/></svg></div>
+          <h3>Montage vidéo & motion design</h3><p>Spots publicitaires, affiches animées et animations de logo.</p></article>
+        <article class="service" data-reveal><span class="num">07</span>
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg></div>
+          <h3>Impression</h3><p>Préparation des fichiers et suivi de fabrication de vos supports imprimés.</p></article>
+        <article class="service cta-service" data-reveal>
+          <div><h3>Un besoin précis ?</h3><p>Décrivez votre projet, nous revenons vers vous avec une proposition adaptée.</p></div>
+          <a class="btn" href="#contact">Demander un devis</a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. À PROPOS + MÉTHODE ============ -->
+  <section class="section" id="apropos">
+    <div class="conteneur apropos-grille">
+      <div class="apropos-texte" data-reveal>
+        <p class="surtitre">À propos</p>
+        <h2 class="titre-section">La créativité au service de <span class="ton">votre image.</span></h2>
+        <p class="fort">LS DESIGN est une activité créative indépendante basée à Dakar, spécialisée dans le design graphique et la communication visuelle.</p>
+        <p>Notre approche associe réflexion stratégique, sens du détail et créativité pour concevoir des visuels qui reflètent la personnalité des marques et des organisations. Du premier concept à la livraison, chaque projet est pensé pour transmettre un message clair et construire une image forte.</p>
+      </div>
+      <ol class="etapes" data-reveal>
+        <li><span class="pastille">1</span><div><h3>Écouter</h3><p>Comprendre votre besoin, vos objectifs et votre public.</p></div></li>
+        <li><span class="pastille">2</span><div><h3>Concevoir</h3><p>Chercher des idées et définir une direction artistique.</p></div></li>
+        <li><span class="pastille">3</span><div><h3>Créer</h3><p>Réaliser les visuels et développer la solution retenue.</p></div></li>
+        <li><span class="pastille">4</span><div><h3>Affiner</h3><p>Intégrer vos retours et finaliser chaque détail.</p></div></li>
+        <li><span class="pastille">5</span><div><h3>Livrer</h3><p>Fichiers prêts à publier ou à imprimer.</p>
+          <div class="formats"><span>PDF HD</span><span>PNG</span><span>JPG</span><span>AI / PSD</span><span>CMJN · 300 dpi</span></div></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ 8. CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="conteneur">
+      <p class="surtitre" data-reveal>Contact</p>
+      <h2 class="titre-section" data-reveal>Un projet en tête ? <span class="ton">Donnons-lui vie.</span></h2>
+      <div class="contact-grille">
+        <div class="coordonnees" data-reveal>
+          <a class="btn btn-whatsapp" id="btn-whatsapp" href="https://wa.me/221709144136" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.2-.4.6-1.3a.5.5 0 000-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.4.8 3.2.6a2.8 2.8 0 001.8-1.3 2.3 2.3 0 00.2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
+            Discuter sur WhatsApp</a>
+          <div class="coord">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></span>
+            <div><small>Téléphone & WhatsApp</small><strong id="tel-affiche">+221 70 914 4136</strong></div>
+            <button class="copier" type="button" data-copier="tel-affiche">Copier</button>
+          </div>
+          <div class="coord" id="coord-email" hidden>
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <div><small>E-mail</small><strong id="email-affiche"></strong></div>
+            <button class="copier" type="button" data-copier="email-affiche">Copier</button>
+          </div>
+          <div class="coord">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.3-7-12a7 7 0 0114 0c0 5.7-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+            <div><small>Localisation</small><strong>Dakar, Sénégal</strong></div>
+          </div>
+          <div class="reseaux-grands" id="reseaux-grands"></div>
+        </div>
+
+        <form class="formulaire" id="formulaire" novalidate data-reveal>
+          <div class="champ"><label for="f-nom">Nom</label><input id="f-nom" name="nom" type="text" autocomplete="name" required><span class="erreur" aria-live="polite"></span></div>
+          <div class="champ"><label for="f-email">Adresse e-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="erreur" aria-live="polite"></span></div>
+          <div class="champ"><label for="f-service">Service recherché</label>
+            <select id="f-service" name="service" required>
+              <option value="">Choisir un service</option>
+              <option>Logo & identité visuelle</option><option>Affiches & supports publicitaires</option><option>Packaging & étiquettes</option>
+              <option>Contenus pour les réseaux sociaux</option><option>Gestion des réseaux sociaux</option><option>Montage vidéo & motion design</option><option>Impression</option><option>Autre</option>
+            </select><span class="erreur" aria-live="polite"></span></div>
+          <div class="champ"><label for="f-budget">Budget indicatif <em>(facultatif)</em></label>
+            <select id="f-budget" name="budget"><option value="">Je ne sais pas encore</option><option>Moins de 25 000 FCFA</option><option>25 000 – 75 000 FCFA</option><option>75 000 – 200 000 FCFA</option><option>Plus de 200 000 FCFA</option></select></div>
+          <div class="champ plein"><label for="f-message">Description du projet</label><textarea id="f-message" name="message" required placeholder="Votre activité, ce dont vous avez besoin, vos délais…"></textarea><span class="erreur" aria-live="polite"></span></div>
+          <div class="bas"><p class="note" id="note-form">Votre demande sera préparée en message WhatsApp, prêt à envoyer.</p>
+            <button class="btn btn-plein" type="submit">Envoyer ma demande <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+          <div class="retour-form" id="retour-form" hidden></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pied">
+  <div class="conteneur">
+    <div class="pied-haut">
+      <div class="grand" aria-hidden="true">LS Design</div>
+      <div class="pied-droite">
+        <nav aria-label="Liens du pied de page"><a href="#univers">Univers</a><a href="#projets">Projets</a><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+        <div class="reseaux-js" data-taille="moyen"></div>
+      </div>
+    </div>
+    <div class="pied-bas"><span>© <span id="annee">2026</span> LS DESIGN · Dakar, Sénégal</span><span>Votre vision. Notre signature.</span></div>
+  </div>
+</footer>
+
+<button class="haut-page" id="haut-page" type="button" aria-label="Revenir en haut de la page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+<div class="modale" id="modale" role="dialog" aria-modal="true" aria-labelledby="fiche-titre">
+  <div class="voile" data-fermer></div>
+  <div class="panneau" id="panneau">
+    <button class="fermer" type="button" data-fermer aria-label="Fermer le projet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div id="fiche"></div>
+  </div>
+</div>
+
+<div class="curseur" id="curseur" aria-hidden="true"></div>
+
+<script src="js/donnees.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
