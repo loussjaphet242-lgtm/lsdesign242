@@ -117,8 +117,19 @@ const V = "videos/";
    ================================================================= */
 const CHARTES = [
   {
+    id: "maiya-kids-charte-v2",
+    nom: "Maï'Ya Kids · Charte complète",
+    client: "Maï'Ya Kids",
+    secteur: "Mode enfant",
+    annee: "2026",
+    description: "Charte graphique version 2.0 : introduction de la marque (histoire, mission, vision, valeurs, cible, ton et voix), identité visuelle (logo, construction, zone de protection, déclinaisons, interdits), univers chromatique, typographie, univers graphique (motifs, pictogrammes, photographie, mise en page) et applications.",
+    couleurs: ["#33BDF2", "#F52DAA", "#B45CCB"],
+    pages: ["images/chartes/maiya-kids-charte-v2/page-01.jpg", "images/chartes/maiya-kids-charte-v2/page-02.jpg", "images/chartes/maiya-kids-charte-v2/page-03.jpg", "images/chartes/maiya-kids-charte-v2/page-04.jpg", "images/chartes/maiya-kids-charte-v2/page-05.jpg", "images/chartes/maiya-kids-charte-v2/page-06.jpg", "images/chartes/maiya-kids-charte-v2/page-07.jpg", "images/chartes/maiya-kids-charte-v2/page-08.jpg", "images/chartes/maiya-kids-charte-v2/page-09.jpg", "images/chartes/maiya-kids-charte-v2/page-10.jpg", "images/chartes/maiya-kids-charte-v2/page-11.jpg", "images/chartes/maiya-kids-charte-v2/page-12.jpg", "images/chartes/maiya-kids-charte-v2/page-13.jpg", "images/chartes/maiya-kids-charte-v2/page-14.jpg", "images/chartes/maiya-kids-charte-v2/page-15.jpg", "images/chartes/maiya-kids-charte-v2/page-16.jpg", "images/chartes/maiya-kids-charte-v2/page-17.jpg", "images/chartes/maiya-kids-charte-v2/page-18.jpg", "images/chartes/maiya-kids-charte-v2/page-19.jpg", "images/chartes/maiya-kids-charte-v2/page-20.jpg", "images/chartes/maiya-kids-charte-v2/page-21.jpg", "images/chartes/maiya-kids-charte-v2/page-22.jpg", "images/chartes/maiya-kids-charte-v2/page-23.jpg", "images/chartes/maiya-kids-charte-v2/page-24.jpg", "images/chartes/maiya-kids-charte-v2/page-25.jpg", "images/chartes/maiya-kids-charte-v2/page-26.jpg", "images/chartes/maiya-kids-charte-v2/page-27.jpg", "images/chartes/maiya-kids-charte-v2/page-28.jpg", "images/chartes/maiya-kids-charte-v2/page-29.jpg", "images/chartes/maiya-kids-charte-v2/page-30.jpg", "images/chartes/maiya-kids-charte-v2/page-31.jpg", "images/chartes/maiya-kids-charte-v2/page-32.jpg", "images/chartes/maiya-kids-charte-v2/page-33.jpg", "images/chartes/maiya-kids-charte-v2/page-34.jpg", "images/chartes/maiya-kids-charte-v2/page-35.jpg", "images/chartes/maiya-kids-charte-v2/page-36.jpg", "images/chartes/maiya-kids-charte-v2/page-37.jpg", "images/chartes/maiya-kids-charte-v2/page-38.jpg", "images/chartes/maiya-kids-charte-v2/page-39.jpg", "images/chartes/maiya-kids-charte-v2/page-40.jpg"],
+    publie: true
+  },
+  {
     id: "maiya-kids",
-    nom: "Maï'Ya Kids",
+    nom: "Maï'Ya Kids · Présentation de l'identité",
     client: "Maï'Ya Kids",
     secteur: "Mode enfant",
     annee: "2026",
