@@ -117,17 +117,16 @@ const V = "videos/";
    ================================================================= */
 const CHARTES = [
   {
-    id: "mayakids",
-    nom: "Ma'Ya Kids",
-    client: "Ma'Ya Kids",
+    id: "maiya-kids",
+    nom: "Maï'Ya Kids",
+    client: "Maï'Ya Kids",
     secteur: "Mode enfant",
     annee: "2026",
-    description: "Charte de la marque pour enfants : logo principal, direction artistique, typographies, positionnement, déclinaisons du logo et applications textiles.",
-    couleurs: [],
-    pages: [P + "mayakids-logo-principal.jpg", P + "mayakids-direction-artistique.jpg", P + "mayakids-declinaisons-logo.jpg", P + "mayakids-typographies.jpg", P + "mayakids-positionnement.jpg", P + "mayakids-sweatshirts.jpg"],
+    description: "Charte complète de la marque : essence, mission et valeurs, personnalité, logo et sa construction, déclinaisons, interdits, couleurs et dégradé signature, typographie Montserrat, univers graphique, applications, supports et mises en situation.",
+    couleurs: ["#F52DAA", "#B45CCB", "#33BDF2"],
+    pages: ["images/chartes/maiya-kids/page-01.jpg", "images/chartes/maiya-kids/page-02.jpg", "images/chartes/maiya-kids/page-03.jpg", "images/chartes/maiya-kids/page-04.jpg", "images/chartes/maiya-kids/page-05.jpg", "images/chartes/maiya-kids/page-06.jpg", "images/chartes/maiya-kids/page-07.jpg", "images/chartes/maiya-kids/page-08.jpg", "images/chartes/maiya-kids/page-09.jpg", "images/chartes/maiya-kids/page-10.jpg", "images/chartes/maiya-kids/page-11.jpg", "images/chartes/maiya-kids/page-12.jpg", "images/chartes/maiya-kids/page-13.jpg", "images/chartes/maiya-kids/page-14.jpg", "images/chartes/maiya-kids/page-15.jpg", "images/chartes/maiya-kids/page-16.jpg", "images/chartes/maiya-kids/page-17.jpg"],
     publie: true
-  }
-];
+  }];
 
 const PROJETS = [
   {
