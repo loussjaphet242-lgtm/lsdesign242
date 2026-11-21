@@ -46,6 +46,7 @@
     <nav class="nav" id="nav" aria-label="Navigation principale">
       <a href="#univers">Univers</a>
       <a href="#projets">Projets</a>
+      <a href="#chartes">Chartes</a>
       <a href="#services">Services</a>
       <a href="#apropos">À propos</a>
       <a href="#contact">Contact</a>
@@ -121,6 +122,32 @@
       <div class="grille-projets" id="grille" aria-live="polite"></div>
     </div>
   </section>
+
+  <!-- ============ 4 bis. CHARTES GRAPHIQUES ============ -->
+  <section class="section chartes" id="chartes" hidden>
+    <div class="conteneur">
+      <div class="portfolio-tete" data-reveal>
+        <div>
+          <p class="surtitre">Identité de marque</p>
+          <h2 class="titre-section">Chartes <span class="ton">graphiques</span></h2>
+        </div>
+        <p>Le livret qui fixe les règles d'une marque : logo, couleurs, typographies et applications. Cliquez sur une page pour feuilleter la charte en plein écran.</p>
+      </div>
+      <div class="chartes-liste" id="chartes-liste"></div>
+    </div>
+  </section>
+
+  <div class="liseuse" id="liseuse" role="dialog" aria-modal="true" aria-labelledby="liseuse-titre" hidden>
+    <div class="liseuse-haut">
+      <p id="liseuse-titre"></p>
+      <span class="liseuse-compte" id="liseuse-compte"></span>
+      <button class="liseuse-fermer" type="button" data-lfermer aria-label="Fermer la charte">✕</button>
+    </div>
+    <div class="liseuse-scene" id="liseuse-scene"></div>
+    <button class="liseuse-fleche prec" type="button" data-lpas="-1" aria-label="Page précédente">←</button>
+    <button class="liseuse-fleche suiv" type="button" data-lpas="1" aria-label="Page suivante">→</button>
+    <div class="liseuse-vignettes" id="liseuse-vignettes"></div>
+  </div>
 
   <!-- ============ 5. MANIFESTE ============ -->
   <section class="manifeste" id="manifeste">
@@ -236,7 +263,7 @@
     <div class="pied-haut">
       <div class="grand" aria-hidden="true">LS Design</div>
       <div class="pied-droite">
-        <nav aria-label="Liens du pied de page"><a href="#univers">Univers</a><a href="#projets">Projets</a><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
+        <nav aria-label="Liens du pied de page"><a href="#univers">Univers</a><a href="#projets">Projets</a><a href="#chartes">Chartes</a><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></nav>
         <div class="reseaux-js" data-taille="moyen"></div>
       </div>
     </div>
@@ -258,5 +285,6 @@
 
 <script src="js/donnees.js"></script>
 <script src="js/main.js"></script>
+<script src="js/chartes.js"></script>
 </body>
 </html>

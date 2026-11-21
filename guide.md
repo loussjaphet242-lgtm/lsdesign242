@@ -83,6 +83,18 @@ Double-clique sur `index.html`. Il s'ouvre dans ton navigateur. Les polices Mont
 
 La vidéo s'affiche en premier dans la fenêtre du projet, avec le lecteur intégré, et la carte porte le badge « ▶ Vidéo ».
 
+## 2 ter. Ajouter une charte graphique
+
+La section « Chartes graphiques » présente chaque charte comme un livret qu'on feuillette en plein écran.
+
+**Le plus simple, depuis GitHub :**
+1. Ouvre ton dépôt, va dans le dossier `ajouter/chartes/`.
+2. *Add file › Upload files* et dépose le **PDF** de la charte (nom conseillé : `CHARTE_NOM_DE_LA_MARQUE.pdf`).
+3. Clique sur *Commit changes*. En une à deux minutes, GitHub découpe chaque page en image et ajoute la charte au site.
+4. Ensuite, dans `js/donnees.js` (bloc `const CHARTES`), complète `client`, `secteur`, `annee`, `description` et, si tu veux, les `couleurs` (codes du type `"#FF5A1F"`).
+
+Déposer à nouveau un PDF du même nom remplace les pages de la charte existante. Pour masquer une charte sans la supprimer : `publie: false`.
+
 ## 3. Modifier tes coordonnées et réseaux
 
 Tout est en haut de `js/donnees.js`, dans `SITE` : téléphone, numéro WhatsApp, e-mail, adresse du site et pages Facebook, Instagram et TikTok de LS DESIGN. Tant qu'une adresse est vide, le bouton ouvre une recherche « LS DESIGN » sur le réseau : colle l'adresse exacte de ta page pour qu'il y mène directement.
@@ -118,7 +130,6 @@ Tout est en haut de `js/donnees.js`, dans `SITE` : téléphone, numéro WhatsApp
 | `js/donnees.js` → projet `exemple-video` | Remplace l'exemple par une vraie vidéo (image de couverture + lien TikTok/YouTube) et supprime `exemple: true` |
 | `js/donnees.js` → textes des projets | Relis les descriptions, objectifs et solutions : je les ai rédigés d'après les visuels, ajuste-les à la réalité de chaque mission |
 | `js/donnees.js` → `client` | Vérifie que chaque client accepte d'être cité ; sinon mets `client: ""` |
-| Catégorie « Chartes graphiques » | Ajoute tes chartes (par ex. les pages de `CHARTE.pdf` exportées en JPG) avec `categorie: "charte"` |
 | `index.html` → balises `og:url` et `og:image` | Mets l'adresse complète du site, ex. `https://lsdesign.sn/images/apercu-partage.jpg` |
 | `robots.txt`, `sitemap.xml` | Remplace `VOTRE-DOMAINE` par ton domaine |
 | `index.html` → `<title>` et `description` | Ajuste si tu veux d'autres mots-clés pour Google |

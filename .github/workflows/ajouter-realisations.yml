@@ -21,7 +21,7 @@ jobs:
 
       - name: Préparer les images et mettre à jour le site
         run: |
-          pip install --quiet pillow
+          pip install --quiet pillow pymupdf
           python scripts/ajouter.py || echo "ATTENTION=1" >> "$GITHUB_ENV"
 
       - name: Enregistrer

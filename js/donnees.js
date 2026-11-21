@@ -106,6 +106,29 @@ const P = "images/projets/";
 const M = "images/miniatures/";
 const V = "videos/";
 
+/* =================================================================
+   CHARTES GRAPHIQUES
+   Une charte = un document de plusieurs pages, feuilletable sur le site.
+   Le plus simple : dépose le PDF dans ajouter/chartes/ sur GitHub, le site
+   découpe les pages et ajoute la charte tout seul.
+   À la main : pages en JPG dans images/chartes/<id>/ (et en 720 px dans
+   images/chartes/<id>/mini/), puis un bloc ci-dessous. L'ordre de la liste = l'ordre d'affichage.
+   couleurs : facultatif, codes relevés dans la charte (ex. "#FF5A1F").
+   ================================================================= */
+const CHARTES = [
+  {
+    id: "mayakids",
+    nom: "Ma'Ya Kids",
+    client: "Ma'Ya Kids",
+    secteur: "Mode enfant",
+    annee: "2026",
+    description: "Charte de la marque pour enfants : logo principal, direction artistique, typographies, positionnement, déclinaisons du logo et applications textiles.",
+    couleurs: [],
+    pages: [P + "mayakids-logo-principal.jpg", P + "mayakids-direction-artistique.jpg", P + "mayakids-declinaisons-logo.jpg", P + "mayakids-typographies.jpg", P + "mayakids-positionnement.jpg", P + "mayakids-sweatshirts.jpg"],
+    publie: true
+  }
+];
+
 const PROJETS = [
   {
     id: "perez-cultes",

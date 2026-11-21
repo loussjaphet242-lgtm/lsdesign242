@@ -381,7 +381,7 @@
         if (en.isIntersecting) liens.forEach(function (l) { l.setAttribute("aria-current", String(l.getAttribute("href") === "#" + en.target.id)); });
       });
     }, { rootMargin: "-45% 0px -50% 0px" });
-    ["univers", "projets", "services", "apropos", "contact"].forEach(function (id) { var s = document.getElementById(id); if (s) obsNav.observe(s); });
+    ["univers", "projets", "chartes", "services", "apropos", "contact"].forEach(function (id) { var s = document.getElementById(id); if (s) obsNav.observe(s); });
   }
 
   /* ---------------------------------------------------------------
