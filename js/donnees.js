@@ -117,6 +117,39 @@ const V = "videos/";
    ================================================================= */
 const CHARTES = [
   {
+    id: "thetop",
+    nom: "THETOP · Thés & infusions",
+    client: "Abel Food",
+    secteur: "Thés & infusions",
+    annee: "2026",
+    description: "Charte graphique version 1.0 de THETOP, la marque de thés et d'infusions d'Abel Food : présentation de la marque et de la gamme, positionnement stratégique, trois pistes créatives et concept retenu « L'Étiquette », logo et déclinaisons, palette (une couleur par référence), typographie, iconographie, système de packaging et patrons à plat, applications point de vente, supports digitaux et direction photo.",
+    couleurs: ["#B6FE04", "#0B2E34", "#F08A24"],
+    pages: ["images/chartes/thetop/page-01.jpg", "images/chartes/thetop/page-02.jpg", "images/chartes/thetop/page-03.jpg", "images/chartes/thetop/page-04.jpg", "images/chartes/thetop/page-05.jpg", "images/chartes/thetop/page-06.jpg", "images/chartes/thetop/page-07.jpg", "images/chartes/thetop/page-08.jpg", "images/chartes/thetop/page-09.jpg", "images/chartes/thetop/page-10.jpg", "images/chartes/thetop/page-11.jpg", "images/chartes/thetop/page-12.jpg", "images/chartes/thetop/page-13.jpg", "images/chartes/thetop/page-14.jpg", "images/chartes/thetop/page-15.jpg", "images/chartes/thetop/page-16.jpg", "images/chartes/thetop/page-17.jpg", "images/chartes/thetop/page-18.jpg", "images/chartes/thetop/page-19.jpg", "images/chartes/thetop/page-20.jpg", "images/chartes/thetop/page-21.jpg", "images/chartes/thetop/page-22.jpg", "images/chartes/thetop/page-23.jpg", "images/chartes/thetop/page-24.jpg", "images/chartes/thetop/page-25.jpg", "images/chartes/thetop/page-26.jpg", "images/chartes/thetop/page-27.jpg", "images/chartes/thetop/page-28.jpg", "images/chartes/thetop/page-29.jpg", "images/chartes/thetop/page-30.jpg", "images/chartes/thetop/page-31.jpg", "images/chartes/thetop/page-32.jpg", "images/chartes/thetop/page-33.jpg", "images/chartes/thetop/page-34.jpg", "images/chartes/thetop/page-35.jpg", "images/chartes/thetop/page-36.jpg", "images/chartes/thetop/page-37.jpg"],
+    publie: true
+  },
+  {
+    id: "impact-digicom",
+    nom: "IMPACT DIGICOM",
+    client: "IMPACT DIGICOM",
+    secteur: "Agence de marketing digital",
+    annee: "2026",
+    description: "Charte graphique édition 2026 (version 2.0) de l'agence IMPACT DIGICOM : la marque (mission, vision, valeurs, cible, ton et messages clés), le logo (symbolique, construction, zone de protection, variantes, interdits), le trio de couleurs Bleu digital, Blanc et Doré, la typographie, l'univers graphique (motifs, pictogrammes, photographie, mise en page) et les applications : papeterie, signalétique, textile, goodies, écrans et réseaux sociaux.",
+    couleurs: ["#282864", "#E4B002", "#FFFFFF"],
+    pages: ["images/chartes/impact-digicom/page-01.jpg", "images/chartes/impact-digicom/page-02.jpg", "images/chartes/impact-digicom/page-03.jpg", "images/chartes/impact-digicom/page-04.jpg", "images/chartes/impact-digicom/page-05.jpg", "images/chartes/impact-digicom/page-06.jpg", "images/chartes/impact-digicom/page-07.jpg", "images/chartes/impact-digicom/page-08.jpg", "images/chartes/impact-digicom/page-09.jpg", "images/chartes/impact-digicom/page-10.jpg", "images/chartes/impact-digicom/page-11.jpg", "images/chartes/impact-digicom/page-12.jpg", "images/chartes/impact-digicom/page-13.jpg", "images/chartes/impact-digicom/page-14.jpg", "images/chartes/impact-digicom/page-15.jpg", "images/chartes/impact-digicom/page-16.jpg", "images/chartes/impact-digicom/page-17.jpg", "images/chartes/impact-digicom/page-18.jpg", "images/chartes/impact-digicom/page-19.jpg", "images/chartes/impact-digicom/page-20.jpg", "images/chartes/impact-digicom/page-21.jpg", "images/chartes/impact-digicom/page-22.jpg", "images/chartes/impact-digicom/page-23.jpg", "images/chartes/impact-digicom/page-24.jpg", "images/chartes/impact-digicom/page-25.jpg", "images/chartes/impact-digicom/page-26.jpg", "images/chartes/impact-digicom/page-27.jpg", "images/chartes/impact-digicom/page-28.jpg", "images/chartes/impact-digicom/page-29.jpg", "images/chartes/impact-digicom/page-30.jpg", "images/chartes/impact-digicom/page-31.jpg", "images/chartes/impact-digicom/page-32.jpg", "images/chartes/impact-digicom/page-33.jpg", "images/chartes/impact-digicom/page-34.jpg", "images/chartes/impact-digicom/page-35.jpg", "images/chartes/impact-digicom/page-36.jpg", "images/chartes/impact-digicom/page-37.jpg", "images/chartes/impact-digicom/page-38.jpg", "images/chartes/impact-digicom/page-39.jpg", "images/chartes/impact-digicom/page-40.jpg", "images/chartes/impact-digicom/page-41.jpg", "images/chartes/impact-digicom/page-42.jpg", "images/chartes/impact-digicom/page-43.jpg", "images/chartes/impact-digicom/page-44.jpg", "images/chartes/impact-digicom/page-45.jpg", "images/chartes/impact-digicom/page-46.jpg", "images/chartes/impact-digicom/page-47.jpg", "images/chartes/impact-digicom/page-48.jpg", "images/chartes/impact-digicom/page-49.jpg", "images/chartes/impact-digicom/page-50.jpg"],
+    publie: true
+  },
+  {
+    id: "diarra",
+    nom: "DIARRA · Épices",
+    client: "Abel Food",
+    secteur: "Épices & assaisonnements",
+    annee: "2026",
+    description: "Charte graphique version 1.0 de DIARRA, la marque d'épices et d'assaisonnements d'Abel Food : positionnement, analyse des codes visuels du rayon, trois concepts créatifs, logo « ruban rouge » et ses règles, palette et couleurs par référence, typographie, motif « trame du pilon », système d'étiquette et déclinaison de la gamme, supports commerciaux et digitaux, direction photo et règles d'impression.",
+    couleurs: ["#C41E1A", "#C59A3F", "#3A1E12"],
+    pages: ["images/chartes/diarra/page-01.jpg", "images/chartes/diarra/page-02.jpg", "images/chartes/diarra/page-03.jpg", "images/chartes/diarra/page-04.jpg", "images/chartes/diarra/page-05.jpg", "images/chartes/diarra/page-06.jpg", "images/chartes/diarra/page-07.jpg", "images/chartes/diarra/page-08.jpg", "images/chartes/diarra/page-09.jpg", "images/chartes/diarra/page-10.jpg", "images/chartes/diarra/page-11.jpg", "images/chartes/diarra/page-12.jpg", "images/chartes/diarra/page-13.jpg", "images/chartes/diarra/page-14.jpg", "images/chartes/diarra/page-15.jpg", "images/chartes/diarra/page-16.jpg", "images/chartes/diarra/page-17.jpg", "images/chartes/diarra/page-18.jpg", "images/chartes/diarra/page-19.jpg"],
+    publie: true
+  },
+  {
     id: "maiya-kids-charte-v2",
     nom: "Maï'Ya Kids",
     client: "Maï'Ya Kids",
