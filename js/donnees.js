@@ -117,6 +117,28 @@ const V = "videos/";
    ================================================================= */
 const CHARTES = [
   {
+    id: "ls-design",
+    nom: "LS DESIGN · Manuel d'identité",
+    client: "LS DESIGN",
+    secteur: "Studio de design graphique",
+    annee: "2026",
+    description: "Manuel d'identité visuelle de LS DESIGN (édition 2024, v2 2026) : la marque (vision, mission et valeurs, public cible, personnalité « tradition et innovation », ton et voix), le logotype (signification, construction, espace libre, déclinaisons, interdits), le dégradé orange-rouge, les typographies Raleway, Playfair Display et Roboto, l'univers graphique (motifs, pictogrammes, photographie) et les applications : papeterie, mockups, textile, packaging, véhicule et réseaux sociaux.",
+    couleurs: ["#FF5733", "#FF8C42", "#000000"],
+    pages: ["images/chartes/ls-design/page-01.jpg", "images/chartes/ls-design/page-02.jpg", "images/chartes/ls-design/page-03.jpg", "images/chartes/ls-design/page-04.jpg", "images/chartes/ls-design/page-05.jpg", "images/chartes/ls-design/page-06.jpg", "images/chartes/ls-design/page-07.jpg", "images/chartes/ls-design/page-08.jpg", "images/chartes/ls-design/page-09.jpg", "images/chartes/ls-design/page-10.jpg", "images/chartes/ls-design/page-11.jpg", "images/chartes/ls-design/page-12.jpg", "images/chartes/ls-design/page-13.jpg", "images/chartes/ls-design/page-14.jpg", "images/chartes/ls-design/page-15.jpg", "images/chartes/ls-design/page-16.jpg", "images/chartes/ls-design/page-17.jpg", "images/chartes/ls-design/page-18.jpg", "images/chartes/ls-design/page-19.jpg", "images/chartes/ls-design/page-20.jpg", "images/chartes/ls-design/page-21.jpg", "images/chartes/ls-design/page-22.jpg", "images/chartes/ls-design/page-23.jpg", "images/chartes/ls-design/page-24.jpg", "images/chartes/ls-design/page-25.jpg", "images/chartes/ls-design/page-26.jpg", "images/chartes/ls-design/page-27.jpg", "images/chartes/ls-design/page-28.jpg", "images/chartes/ls-design/page-29.jpg", "images/chartes/ls-design/page-30.jpg", "images/chartes/ls-design/page-31.jpg", "images/chartes/ls-design/page-32.jpg", "images/chartes/ls-design/page-33.jpg", "images/chartes/ls-design/page-34.jpg", "images/chartes/ls-design/page-35.jpg", "images/chartes/ls-design/page-36.jpg", "images/chartes/ls-design/page-37.jpg", "images/chartes/ls-design/page-38.jpg", "images/chartes/ls-design/page-39.jpg", "images/chartes/ls-design/page-40.jpg", "images/chartes/ls-design/page-41.jpg", "images/chartes/ls-design/page-42.jpg", "images/chartes/ls-design/page-43.jpg"],
+    publie: true
+  },
+  {
+    id: "abel-food",
+    nom: "Abel Food",
+    client: "Abel Food",
+    secteur: "Agroalimentaire",
+    annee: "2026",
+    description: "Charte graphique d'Abel Food, entreprise agroalimentaire sénégalaise : objectif, mission et valeurs, logo au monogramme baobab et ses versions, couleurs vert, orange et blanc, typographies Roboto et Montserrat, ton de voix, motifs, papeterie et applications du logo (packaging, affichage, textile, marquage).",
+    couleurs: ["#228B22", "#FFA500", "#FFFFFF"],
+    pages: ["images/chartes/abel-food/page-01.jpg", "images/chartes/abel-food/page-02.jpg", "images/chartes/abel-food/page-03.jpg", "images/chartes/abel-food/page-04.jpg", "images/chartes/abel-food/page-05.jpg", "images/chartes/abel-food/page-06.jpg", "images/chartes/abel-food/page-07.jpg", "images/chartes/abel-food/page-08.jpg", "images/chartes/abel-food/page-09.jpg", "images/chartes/abel-food/page-10.jpg", "images/chartes/abel-food/page-11.jpg", "images/chartes/abel-food/page-12.jpg", "images/chartes/abel-food/page-13.jpg", "images/chartes/abel-food/page-14.jpg", "images/chartes/abel-food/page-15.jpg", "images/chartes/abel-food/page-16.jpg", "images/chartes/abel-food/page-17.jpg", "images/chartes/abel-food/page-18.jpg", "images/chartes/abel-food/page-19.jpg", "images/chartes/abel-food/page-20.jpg", "images/chartes/abel-food/page-21.jpg", "images/chartes/abel-food/page-22.jpg", "images/chartes/abel-food/page-23.jpg", "images/chartes/abel-food/page-24.jpg"],
+    publie: true
+  },
+  {
     id: "thetop",
     nom: "THETOP · Thés & infusions",
     client: "Abel Food",
