@@ -117,6 +117,17 @@ const V = "videos/";
    ================================================================= */
 const CHARTES = [
   {
+    id: "abel-food-charte-2026",
+    nom: "Abel Food · Charte 2026",
+    client: "Abel Food",
+    secteur: "Agroalimentaire",
+    annee: "2026",
+    description: "Charte graphique institutionnelle édition 2026 d'Abel Food, qui reconstruit et complète la charte de 2025 : identité institutionnelle (histoire, mission, positionnement, publics, architecture des marques, ton), logo (construction, protection, tailles, déclinaisons, interdits), palette Vert Abel, Orange Abel et couleurs d'accompagnement, typographies Roboto et Montserrat, motifs, pictogrammes et photographie, marques, gammes et packagings, puis applications : papeterie, supports commerciaux, PLV, réseaux sociaux, objets et textiles.",
+    couleurs: ["#1F8D36", "#F6A317", "#FFFFFF"],
+    pages: ["images/chartes/abel-food-charte-2026/page-01.jpg", "images/chartes/abel-food-charte-2026/page-02.jpg", "images/chartes/abel-food-charte-2026/page-03.jpg", "images/chartes/abel-food-charte-2026/page-04.jpg", "images/chartes/abel-food-charte-2026/page-05.jpg", "images/chartes/abel-food-charte-2026/page-06.jpg", "images/chartes/abel-food-charte-2026/page-07.jpg", "images/chartes/abel-food-charte-2026/page-08.jpg", "images/chartes/abel-food-charte-2026/page-09.jpg", "images/chartes/abel-food-charte-2026/page-10.jpg", "images/chartes/abel-food-charte-2026/page-11.jpg", "images/chartes/abel-food-charte-2026/page-12.jpg", "images/chartes/abel-food-charte-2026/page-13.jpg", "images/chartes/abel-food-charte-2026/page-14.jpg", "images/chartes/abel-food-charte-2026/page-15.jpg", "images/chartes/abel-food-charte-2026/page-16.jpg", "images/chartes/abel-food-charte-2026/page-17.jpg", "images/chartes/abel-food-charte-2026/page-18.jpg", "images/chartes/abel-food-charte-2026/page-19.jpg", "images/chartes/abel-food-charte-2026/page-20.jpg", "images/chartes/abel-food-charte-2026/page-21.jpg", "images/chartes/abel-food-charte-2026/page-22.jpg", "images/chartes/abel-food-charte-2026/page-23.jpg", "images/chartes/abel-food-charte-2026/page-24.jpg", "images/chartes/abel-food-charte-2026/page-25.jpg", "images/chartes/abel-food-charte-2026/page-26.jpg", "images/chartes/abel-food-charte-2026/page-27.jpg", "images/chartes/abel-food-charte-2026/page-28.jpg", "images/chartes/abel-food-charte-2026/page-29.jpg", "images/chartes/abel-food-charte-2026/page-30.jpg", "images/chartes/abel-food-charte-2026/page-31.jpg", "images/chartes/abel-food-charte-2026/page-32.jpg", "images/chartes/abel-food-charte-2026/page-33.jpg", "images/chartes/abel-food-charte-2026/page-34.jpg", "images/chartes/abel-food-charte-2026/page-35.jpg", "images/chartes/abel-food-charte-2026/page-36.jpg", "images/chartes/abel-food-charte-2026/page-37.jpg", "images/chartes/abel-food-charte-2026/page-38.jpg", "images/chartes/abel-food-charte-2026/page-39.jpg", "images/chartes/abel-food-charte-2026/page-40.jpg", "images/chartes/abel-food-charte-2026/page-41.jpg", "images/chartes/abel-food-charte-2026/page-42.jpg", "images/chartes/abel-food-charte-2026/page-43.jpg", "images/chartes/abel-food-charte-2026/page-44.jpg", "images/chartes/abel-food-charte-2026/page-45.jpg", "images/chartes/abel-food-charte-2026/page-46.jpg", "images/chartes/abel-food-charte-2026/page-47.jpg", "images/chartes/abel-food-charte-2026/page-48.jpg", "images/chartes/abel-food-charte-2026/page-49.jpg", "images/chartes/abel-food-charte-2026/page-50.jpg", "images/chartes/abel-food-charte-2026/page-51.jpg", "images/chartes/abel-food-charte-2026/page-52.jpg", "images/chartes/abel-food-charte-2026/page-53.jpg"],
+    publie: true
+  },
+  {
     id: "atirs-services",
     nom: "ATiRS Services",
     client: "ATiRS Services",
@@ -140,10 +151,10 @@ const CHARTES = [
   },
   {
     id: "abel-food",
-    nom: "Abel Food",
+    nom: "Abel Food · Charte 2025",
     client: "Abel Food",
     secteur: "Agroalimentaire",
-    annee: "2026",
+    annee: "2025",
     description: "Charte graphique d'Abel Food, entreprise agroalimentaire sénégalaise : objectif, mission et valeurs, logo au monogramme baobab et ses versions, couleurs vert, orange et blanc, typographies Roboto et Montserrat, ton de voix, motifs, papeterie et applications du logo (packaging, affichage, textile, marquage).",
     couleurs: ["#228B22", "#FFA500", "#FFFFFF"],
     pages: ["images/chartes/abel-food/page-01.jpg", "images/chartes/abel-food/page-02.jpg", "images/chartes/abel-food/page-03.jpg", "images/chartes/abel-food/page-04.jpg", "images/chartes/abel-food/page-05.jpg", "images/chartes/abel-food/page-06.jpg", "images/chartes/abel-food/page-07.jpg", "images/chartes/abel-food/page-08.jpg", "images/chartes/abel-food/page-09.jpg", "images/chartes/abel-food/page-10.jpg", "images/chartes/abel-food/page-11.jpg", "images/chartes/abel-food/page-12.jpg", "images/chartes/abel-food/page-13.jpg", "images/chartes/abel-food/page-14.jpg", "images/chartes/abel-food/page-15.jpg", "images/chartes/abel-food/page-16.jpg", "images/chartes/abel-food/page-17.jpg", "images/chartes/abel-food/page-18.jpg", "images/chartes/abel-food/page-19.jpg", "images/chartes/abel-food/page-20.jpg", "images/chartes/abel-food/page-21.jpg", "images/chartes/abel-food/page-22.jpg", "images/chartes/abel-food/page-23.jpg", "images/chartes/abel-food/page-24.jpg"],
