@@ -117,6 +117,17 @@ const V = "videos/";
    ================================================================= */
 const CHARTES = [
   {
+    id: "atirs-services",
+    nom: "ATiRS Services",
+    client: "ATiRS Services",
+    secteur: "Cartes de visite NFC & digital",
+    annee: "2026",
+    description: "Charte graphique version 1.0 d'ATiRS Services, structure high-tech de cartes de visite NFC intelligentes : concept « du tiroir au contact », mission, vision et valeurs, public cible, personnalité et ton, le symbole aux deux cercles (signification, construction, protection, déclinaisons, interdits), couleurs Rouge Connexion et Bleu Électrique, typographies Montserrat et Arial, univers graphique et applications : carte NFC, papeterie, réseaux sociaux et profil numérique.",
+    couleurs: ["#FC3332", "#1507E1", "#FFFFFF"],
+    pages: ["images/chartes/atirs-services/page-01.jpg", "images/chartes/atirs-services/page-02.jpg", "images/chartes/atirs-services/page-03.jpg", "images/chartes/atirs-services/page-04.jpg", "images/chartes/atirs-services/page-05.jpg", "images/chartes/atirs-services/page-06.jpg", "images/chartes/atirs-services/page-07.jpg", "images/chartes/atirs-services/page-08.jpg", "images/chartes/atirs-services/page-09.jpg", "images/chartes/atirs-services/page-10.jpg", "images/chartes/atirs-services/page-11.jpg", "images/chartes/atirs-services/page-12.jpg", "images/chartes/atirs-services/page-13.jpg", "images/chartes/atirs-services/page-14.jpg", "images/chartes/atirs-services/page-15.jpg", "images/chartes/atirs-services/page-16.jpg", "images/chartes/atirs-services/page-17.jpg", "images/chartes/atirs-services/page-18.jpg", "images/chartes/atirs-services/page-19.jpg", "images/chartes/atirs-services/page-20.jpg", "images/chartes/atirs-services/page-21.jpg", "images/chartes/atirs-services/page-22.jpg", "images/chartes/atirs-services/page-23.jpg", "images/chartes/atirs-services/page-24.jpg", "images/chartes/atirs-services/page-25.jpg", "images/chartes/atirs-services/page-26.jpg", "images/chartes/atirs-services/page-27.jpg", "images/chartes/atirs-services/page-28.jpg", "images/chartes/atirs-services/page-29.jpg", "images/chartes/atirs-services/page-30.jpg", "images/chartes/atirs-services/page-31.jpg", "images/chartes/atirs-services/page-32.jpg", "images/chartes/atirs-services/page-33.jpg", "images/chartes/atirs-services/page-34.jpg", "images/chartes/atirs-services/page-35.jpg", "images/chartes/atirs-services/page-36.jpg", "images/chartes/atirs-services/page-37.jpg"],
+    publie: true
+  },
+  {
     id: "ls-design",
     nom: "LS DESIGN · Manuel d'identité",
     client: "LS DESIGN",
